@@ -34,7 +34,7 @@ function quit() {
     q.style.display = "none";
     var f = score / tques;
 
-    localStorage.setItem("rad", (f * 100));
+    localStorage.setItem("radi", (f * 100));
 
     //redireciona para a pagina home
     window.location.replace("/QuizMatematica/index.html");
