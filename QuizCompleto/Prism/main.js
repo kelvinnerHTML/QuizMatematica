@@ -34,7 +34,7 @@ function quit() {
     q.style.display = "none";
     var f = score / tques;
     //result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
-    localStorage.setItem("Prisma", (f * 100));
+    localStorage.setItem("pri", (f * 100));
 
     //redireciona para a pagina home
     window.location.replace("/QuizMatematica/index.html");
