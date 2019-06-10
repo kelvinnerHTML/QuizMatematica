@@ -59,7 +59,7 @@ var questions = [
     //9
     ["(Pucrj 2013)  O retângulo DEFG está inscrito no triângulo isósceles ABC, como na figura abaixo:",
         "", "", "", "", "",
-        "img/ex9.png", "img/ex9A.png", " img/ex9B.png", "img/ex9C.png", "img/ex9D.png", "img/ex9E.png",
+        "img/ex9.png", "img/ex9A.png", " img/EX9B.png", "img/EX9C.png", "img/EX9D.png", "img/EX9E.png",
         "4"
     ],
     //10
