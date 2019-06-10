@@ -1,0 +1,3 @@
+Arrumar:
+No porcentagem 2 só tem cadastrado uma questão favor verificar o arquivo questions.js
+
