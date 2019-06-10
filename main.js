@@ -43,7 +43,7 @@ document.getElementById("est").innerHTML = est + "%";
 document.getElementById("s2").innerHTML = s2 + "%";
 document.getElementById("medias").innerHTML = medias + "%";
 document.getElementById("pri").innerHTML = pri + "%";
-document.getElementById("radi").innerHTML = 30 + "%";
+document.getElementById("radi").innerHTML = radi + "%";
 
 
 //funcao pra gerar graficos
