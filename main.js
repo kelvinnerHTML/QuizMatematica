@@ -19,7 +19,8 @@ var razaog = parseFloat(localStorage.getItem("razaog") || "0");
 var medias = parseFloat(localStorage.getItem("medias") || "0");
 var s2 = parseFloat(localStorage.getItem("s2") || "0");
 var est = parseFloat(localStorage.getItem("est") || "0");
-var prisma = parseFloat(localStorage.getItem("prisma") || "0");
+var prisma = parseFloat(localStorage.getItem("Prisma") || "0");
+var prisma = parseFloat(localStorage.getItem("Radiciacao") || "0");
 //Mostra nos elementos a porcentagem de acertos
 document.getElementById("Porcentagem1").innerHTML = Porcentagem1 + "%";
 document.getElementById("Porcentagem2").innerHTML = Porcentagem2 + "%";
@@ -43,6 +44,7 @@ document.getElementById("s2").innerHTML = s2 + "%";
 document.getElementById("medias").innerHTML = medias + "%";
 document.getElementById("Prisma").innerHTML = Prisma + "%";
 document.getElementById("Radiciacao").innerHTML = Radiciacao + "%";
+
 
 
 
@@ -84,7 +86,7 @@ window.onload = function () {
                     { label: "Média", y: medias},
                     { label: "Estatística", y: est},
                     { label: "Prisma", y: Prisma},
-                    { label: "Radiciação", y: Radiciação}
+                    { label: "Radiciação", y: Radiciacao}
                     
                 ]
             }
