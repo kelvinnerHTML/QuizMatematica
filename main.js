@@ -82,7 +82,7 @@ window.onload = function() {
                 { label: "Semelhanças", y: s2 },
                 { label: "Média", y: medias },
                 { label: "Estatística", y: est },
-                { label: "pri", y: Prisma },
+                { label: "Prisma", y: pri },
                 { label: "Radiciação", y: rad }
 
             ]
