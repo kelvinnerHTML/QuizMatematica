@@ -6,3 +6,6 @@ aluno colocou enunciado no local da questão.
 
 Esfera
 O nome das imagens está errado, não se coloca espaço nos nomes de imagens. (Corrigido!)
+
+Piramide
+Erro GRAVE no questions.js colocou as alternativas imagens como texto.
