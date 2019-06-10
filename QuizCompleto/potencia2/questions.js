@@ -49,7 +49,7 @@ var questions = [
 
     ["(Uerj 2011)  Um evento está sendo realizado em uma praia cuja faixa de areia tem cerca de 3 km de extensão e 100 m de largura.A ordem de grandeza do maior número possível de adultos que podem assistir a esse evento sentados na areia é de:",
         "", "", "", "", "",
-        "", "img/9a.png", "img/9b.png", "img/9c.png", "img/9d.png",
+        "", "img/9a.png", "img/9b.png", "img/9c.png", "img/9d.png", "",
         "3"
     ],
 
