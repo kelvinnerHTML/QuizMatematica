@@ -43,7 +43,7 @@ document.getElementById("est").innerHTML = est + "%";
 document.getElementById("s2").innerHTML = s2 + "%";
 document.getElementById("medias").innerHTML = medias + "%";
 document.getElementById("pri").innerHTML = pri + "%";
-document.getElementById("rad").innerHTML = Radiciacao + "%";
+document.getElementById("Radiciacao").innerHTML = Radiciacao + "%";
 
 
 //funcao pra gerar graficos
@@ -83,7 +83,7 @@ window.onload = function() {
                 { label: "Média", y: medias },
                 { label: "Estatística", y: est },
                 { label: "Prisma", y: pri },
-                { label: "Radiciação", y: rad }
+                { label: "Radiciação", y: Radiciacao }
 
             ]
         }]
