@@ -35,14 +35,10 @@ function quit() {
     var f = score / tques;
     //result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
     //Salva os acertos das questoes
-
     localStorage.setItem("Porcentagem1", (f * 100));
-
-    
-
     //redireciona para a pagina home
 
-    window.location.replace("/index.html");
+    window.location.replace("/QuizMatematica/index.html");
 }
 
 function give_ques(quesindex) {
@@ -53,7 +49,7 @@ function give_ques(quesindex) {
     opt3.textContent = questions[quesindex][3];
     opt4.textContent = questions[quesindex][4];
     opt5.textContent = questions[quesindex][5];
-    
+
     //chama as imagens da questão
     imgQuestion.src = questions[quesindex][6];
     imgAlt1.src = questions[quesindex][7];

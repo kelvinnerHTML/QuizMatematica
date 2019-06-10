@@ -7,7 +7,7 @@ var Esfera = parseFloat(localStorage.getItem("Esfera") || "0");
 var FQ = parseFloat(localStorage.getItem("FQ") || "0");
 var Multiplos = parseFloat(localStorage.getItem("Multiplos") || "0");
 var OP1 = parseFloat(localStorage.getItem("OP1") || "0");
-var piramide= parseFloat(localStorage.getItem("piramide") || "0");
+var piramide = parseFloat(localStorage.getItem("piramide") || "0");
 var Potencia1 = parseFloat(localStorage.getItem("Potencia1") || "0");
 var Potencia2 = parseFloat(localStorage.getItem("Potencia2") || "0");
 var RG1 = parseFloat(localStorage.getItem("RG1") || "0");
@@ -20,7 +20,7 @@ var medias = parseFloat(localStorage.getItem("medias") || "0");
 var s2 = parseFloat(localStorage.getItem("s2") || "0");
 var est = parseFloat(localStorage.getItem("est") || "0");
 var prisma = parseFloat(localStorage.getItem("Prisma") || "0");
-var prisma = parseFloat(localStorage.getItem("Radiciacao") || "0");
+var rad = parseFloat(localStorage.getItem("rad") || "0");
 //Mostra nos elementos a porcentagem de acertos
 document.getElementById("Porcentagem1").innerHTML = Porcentagem1 + "%";
 document.getElementById("Porcentagem2").innerHTML = Porcentagem2 + "%";
@@ -43,13 +43,11 @@ document.getElementById("est").innerHTML = est + "%";
 document.getElementById("s2").innerHTML = s2 + "%";
 document.getElementById("medias").innerHTML = medias + "%";
 document.getElementById("Prisma").innerHTML = Prisma + "%";
-document.getElementById("Radiciacao").innerHTML = Radiciacao + "%";
-
-
+document.getElementById("rad").innerHTML = Radiciacao + "%";
 
 
 //funcao pra gerar graficos
-window.onload = function () {
+window.onload = function() {
     var options = {
         animationEnabled: true,
         theme: "dark2",
@@ -59,43 +57,37 @@ window.onload = function () {
         axisX: {
             title: "Areas da matematica"
         },
-        data: [
-            {
-                // Adicionar as colunas dos temas de matematica
-                type: "column",
-                
-                dataPoints: [
-                    { label: "Porcentagem1", y: Porcentagem1 },
-                    { label: "Porcentagem2", y: Porcentagem2},
-                    { label: "Cilindro", y: Cilindro },
-                    { label: "Cone", y: Cone },
-                    { label: "Esfera", y: Esfera },
-                    { label: "Funções Quadráticas", y: FQ },
-                    { label: "Multiplos", y: Multiplos},
-                    { label: "Operações básicas", y: OP1 },
-                    { label: "piramide", y: piramide },
-                    { label: "Potencia1", y: Potencia1 },
-                    { label: "Potencia2", y: Potencia2 },
-                    { label: "Radical Geral", y: RG1 },
-                    { label: "Semelhancas", y: Semelhancas },
-                    { label: "Segmentos Proporcionais", y: sg },
-                    { label: "Função Afim", y: fa },
-                    { label: "Função Logarítmicas", y: fl },
-                    { label: "Razão Geral", y: razaog},
-                    { label: "Semelhanças", y: s2},
-                    { label: "Média", y: medias},
-                    { label: "Estatística", y: est},
-                    { label: "Prisma", y: Prisma},
-                    { label: "Radiciação", y: Radiciacao}
-                    
-                ]
-            }
-        ]
+        data: [{
+            // Adicionar as colunas dos temas de matematica
+            type: "column",
+
+            dataPoints: [
+                { label: "Porcentagem1", y: Porcentagem1 },
+                { label: "Porcentagem2", y: Porcentagem2 },
+                { label: "Cilindro", y: Cilindro },
+                { label: "Cone", y: Cone },
+                { label: "Esfera", y: Esfera },
+                { label: "Funções Quadráticas", y: FQ },
+                { label: "Multiplos", y: Multiplos },
+                { label: "Operações básicas", y: OP1 },
+                { label: "piramide", y: piramide },
+                { label: "Potencia1", y: Potencia1 },
+                { label: "Potencia2", y: Potencia2 },
+                { label: "Radical Geral", y: RG1 },
+                { label: "Semelhancas", y: Semelhancas },
+                { label: "Segmentos Proporcionais", y: sg },
+                { label: "Função Afim", y: fa },
+                { label: "Função Logarítmicas", y: fl },
+                { label: "Razão Geral", y: razaog },
+                { label: "Semelhanças", y: s2 },
+                { label: "Média", y: medias },
+                { label: "Estatística", y: est },
+                { label: "Prisma", y: Prisma },
+                { label: "Radiciação", y: rad }
+
+            ]
+        }]
     };
 
     $("#chartContainer").CanvasJSChart(options);
 }
-
-
-
-

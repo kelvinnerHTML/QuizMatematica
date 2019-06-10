@@ -68,14 +68,14 @@ function quit() {
 
     var f = score / tques;
 
-   // result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
-   localStorage.setItem("Cilindro", (f * 100));
+    // result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
+    localStorage.setItem("Cilindro", (f * 100));
 
-    
 
-   //redireciona para a pagina home
 
-   window.location.replace("/index.html");
+    //redireciona para a pagina home
+
+    window.location.replace("/QuizMatematica/index.html");
 
 }
 
@@ -97,7 +97,7 @@ function give_ques(quesindex) {
 
     opt5.textContent = questions[quesindex][5];
 
-    
+
 
     //chama as imagens da questão
 

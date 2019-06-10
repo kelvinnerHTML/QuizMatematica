@@ -33,12 +33,10 @@ function quit() {
     result.style.display = '';
     q.style.display = "none";
     var f = score / tques;
-    //result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
     //Salva os acertos das questoes
     localStorage.setItem("Porcetagem2", (f * 100));
-
     //redireciona para a pagina home
-    window.location.replace("/index.html");
+    window.location.replace("/QuizMatematica/index.html");
 }
 
 function give_ques(quesindex) {
