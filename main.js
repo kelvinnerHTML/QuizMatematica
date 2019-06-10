@@ -20,7 +20,7 @@ var medias = parseFloat(localStorage.getItem("medias") || "0");
 var s2 = parseFloat(localStorage.getItem("s2") || "0");
 var est = parseFloat(localStorage.getItem("est") || "0");
 var pri = parseFloat(localStorage.getItem("pri") || "0");
-var rad = parseFloat(localStorage.getItem("rad") || "0");
+var radi = parseFloat(localStorage.getItem("radi") || "0");
 //Mostra nos elementos a porcentagem de acertos
 document.getElementById("Porcentagem1").innerHTML = Porcentagem1 + "%";
 document.getElementById("Porcentagem2").innerHTML = Porcentagem2 + "%";
@@ -43,7 +43,7 @@ document.getElementById("est").innerHTML = est + "%";
 document.getElementById("s2").innerHTML = s2 + "%";
 document.getElementById("medias").innerHTML = medias + "%";
 document.getElementById("pri").innerHTML = pri + "%";
-document.getElementById("Radiciacao").innerHTML = Radiciacao + "%";
+document.getElementById("radi").innerHTML = 30 + "%";
 
 
 //funcao pra gerar graficos
@@ -55,7 +55,11 @@ window.onload = function() {
             text: "Meu desempenho"
         },
         axisX: {
+            labelAutoFit: true,
             title: "Areas da matematica"
+        },
+        axisY: {
+            maximum: 100,
         },
         data: [{
             // Adicionar as colunas dos temas de matematica
@@ -83,7 +87,7 @@ window.onload = function() {
                 { label: "Média", y: medias },
                 { label: "Estatística", y: est },
                 { label: "Prisma", y: pri },
-                { label: "Radiciação", y: Radiciacao }
+                { label: "Radiciação", y: radi }
 
             ]
         }]
