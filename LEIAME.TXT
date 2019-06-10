@@ -1,3 +1,8 @@
 Arrumar:
 No porcentagem 2 só tem cadastrado uma questão favor verificar o arquivo questions.js
 
+O questionario Cone está errado.. o arquivo questions.js está em um formato completamente errado..
+aluno colocou enunciado no local da questão.
+
+Esfera
+O nome das imagens está errado, não se coloca espaço nos nomes de imagens. (Corrigido!)
