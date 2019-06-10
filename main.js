@@ -42,7 +42,7 @@ document.getElementById("razaog").innerHTML = razaog + "%";
 document.getElementById("est").innerHTML = est + "%";
 document.getElementById("s2").innerHTML = s2 + "%";
 document.getElementById("medias").innerHTML = medias + "%";
-document.getElementById("pri").innerHTML = Prisma + "%";
+document.getElementById("pri").innerHTML = pri + "%";
 document.getElementById("rad").innerHTML = Radiciacao + "%";
 
 
