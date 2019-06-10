@@ -34,7 +34,7 @@ function quit() {
     q.style.display = "none";
     var f = score / tques;
     //result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
-    localStorage.setItem("medidas", (f * 100));
+    localStorage.setItem("medias", (f * 100));
     //redireciona para a pagina home
     window.location.replace("/QuizMatematica/index.html");
 }

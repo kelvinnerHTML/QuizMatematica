@@ -4,8 +4,8 @@ No porcentagem 2 só tem cadastrado uma questão favor verificar o arquivo quest
 O questionario Cone está errado.. o arquivo questions.js está em um formato completamente errado..
 aluno colocou enunciado no local da questão.
 
-Esfera
-O nome das imagens está errado, não se coloca espaço nos nomes de imagens. (Corrigido!)
+Esfera  (Corrigido!)
+O nome das imagens está errado, não se coloca espaço nos nomes de imagens. 
 
 Piramide
 Erro GRAVE no questions.js colocou as alternativas imagens como texto na questão 6, 8, 10.
@@ -14,5 +14,13 @@ Potencia 1
 Questoes com caracteres errados sem nenhuma justificativa.
 Imagens inexistentes.
 
-Potencia 2
+Potencia 2 (corrigido)
 Cadastrou as imagens no local dos textos no questions.js
+apagou alternativas quando deveria deixa-las em branco ou com NDA.
+
+Semelhancas (corrigido)
+na questão 9 arquivos com nome maiusculo onde foram chamados como minusculo
+
+Seguimentos 
+Exercicio 3 alternativas estão estranhas.
+Exercicio 4 alternativa 1 a imagen está com um tamanho desproporcional.
