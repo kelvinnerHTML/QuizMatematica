@@ -12,7 +12,7 @@ var questions = [
     ],
 
     ["(Fac. Albert Einstein - Medicin 2016)  A tabela seguinte permite exprimir os valores de certas grandezas em relação a um valor determinado da mesma grandeza tomado como referência. Os múltiplos e submúltiplos decimais das unidades do Sistema Internacional de Unidades (SI) podem ser obtidos direta ou indiretamente dos valores apresentados e têm seus nomes formados pelo emprego dos prefixos indicados.",
-        "X<500", "500<X<1000", "1000<X<1500", "X>1500",
+        "X<500", "500<X<1000", "1000<X<1500", "X>1500", "",
         "img/TABELA3.png", "", "", "", "", "",
         "2"
     ],

@@ -8,4 +8,11 @@ Esfera
 O nome das imagens está errado, não se coloca espaço nos nomes de imagens. (Corrigido!)
 
 Piramide
-Erro GRAVE no questions.js colocou as alternativas imagens como texto.
+Erro GRAVE no questions.js colocou as alternativas imagens como texto na questão 6, 8, 10.
+
+Potencia 1
+Questoes com caracteres errados sem nenhuma justificativa.
+Imagens inexistentes.
+
+Potencia 2
+Cadastrou as imagens no local dos textos no questions.js
