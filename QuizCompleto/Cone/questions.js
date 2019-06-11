@@ -1,30 +1,28 @@
 var questions = [
 
-    ["1. (Enem 2016)  Em regiões agrícolas, é comum a presença de silos para armazenamento e secagem da produção de grãos, no formato de um cilindro reto, sobreposta por um cone, e dimensões indicadas na figura. O silo fica cheio e o transporte dos grãos é feito em caminhões de carga cuja capacidade é de   Uma região possui um silo cheio e apenas um caminhão para transportar os grãos para a usina de beneficiamento.",
-    "Utilize como aproximação para pi",
-    "O número mínimo de viagens que o caminhão precisará fazer para transportar todo o volume de grãos armazenados no silo é ",
-        "img/1.png",
+    [" (Enem 2016)  Em regiões agrícolas, é comum a presença de silos para armazenamento e secagem da produção de grãos, no formato de um cilindro reto, sobreposta por um cone, e dimensões indicadas na figura. O silo fica cheio e o transporte dos grãos é feito em caminhões de carga cuja capacidade é de   Uma região possui um silo cheio e apenas um caminhão para transportar os grãos para a usina de beneficiamento. Utilize como aproximação para pi, O número mínimo de viagens que o caminhão precisará fazer para transportar todo o volume de grãos armazenados no silo é :",
+         "img/1.png",
         "a)6", "b)16", "c)17", "d)18","e)21",
         "4"
     ],
-    ["2. (Enem PPL 2015)  Ao se perfurar um poço no chão, na forma de um cilindro circular reto, toda a terra retirada é amontoada na forma de um cone circular reto, cujo raio da base é o triplo do raio do poço e a altura é 2,4 metros. Sabe-se que o volume desse cone de terra é   maior do que o volume do poço cilíndrico, pois a terra fica mais fofa após ser escavada.",
-    "Qual é a profundidade, em metros, desse poço? ",
+    [" (Enem PPL 2015)  Ao se perfurar um poço no chão, na forma de um cilindro circular reto, toda a terra retirada é amontoada na forma de um cone circular reto, cujo raio da base é o triplo do raio do poço e a altura é 2,4 metros. Sabe-se que o volume desse cone de terra é   maior do que o volume do poço cilíndrico, pois a terra fica mais fofa após ser escavada.",
     "a)1,44", "b)6,00", "c)7,20", "d)8,64", "e)36,00",
+    "",
+    "", "", "", "", "",
     "2"
     ],
-    ["3. (Enem 2014)  Um sinalizador de trânsito tem o formato de um cone circular reto. O sinalizador precisa ser revestido externamente com adesivo fluorescente, desde sua base (base do cone) até a metade de sua altura, para sinalização noturna. O responsável pela colocação do adesivo precisa fazer o corte do material de maneira que a forma do adesivo corresponda exatamente à parte da superfície lateral a ser revestida.",
+    ["(Enem 2014)  Um sinalizador de trânsito tem o formato de um cone circular reto. O sinalizador precisa ser revestido externamente com adesivo fluorescente, desde sua base (base do cone) até a metade de sua altura, para sinalização noturna. O responsável pela colocação do adesivo precisa fazer o corte do material de maneira que a forma do adesivo corresponda exatamente à parte da superfície lateral a ser revestida.",
     "Qual é a profundidade, em metros, desse poço? ",
-    "a) img/3a.png", "b)img/3b.png", "c)img/3c.png", "d)img/3d.png", "e)img/3e.png",
+    "img/3a.png", "img/3b.png", "img/3c.png", "img/3d.png", "img/3e.png",
     "5"
     ],
-    ["4. (Enem PPL 2014)  Para fazer um pião, brinquedo muito apreciado pelas crianças, um artesão utilizará o torno mecânico para trabalhar num pedaço de madeira em formato de cilindro reto, cujas medidas do diâmetro e da altura estão ilustradas na Figura 1. A parte de cima desse pião será uma semiesfera, e a parte de baixo, um cone com altura   conforme Figura 2. O vértice do cone deverá coincidir com o centro da base do cilindro.",
-    "O artesão deseja fazer um pião com a maior altura que esse pedaço de madeira possa proporcionar e de modo a minimizar a quantidade de madeira a ser descartada.",
-    "Dados:",
-    "O volume de uma esfera de raio pi é ",
-    "O volume do cilindro de altura   e área da base S é ",
-    "O volume do cone de altura   e área da base S é",
-    "Por simplicidade, aproxime pi para 3",
-    "A quantidade de madeira descartada, em centímetros cúbicos, é ",
+    ["(Enem PPL 2014)  Para fazer um pião, brinquedo muito apreciado pelas crianças, um artesão utilizará o torno" +
+    " mecânico para trabalhar num pedaço de madeira em formato de cilindro reto, cujas medidas do diâmetro e da altura estão ilustradas na Figura 1. A parte de cima desse pião será uma semiesfera, e a parte de baixo, um cone com altura   conforme Figura 2. O vértice do cone deverá coincidir com o centro da base do cilindro. O artesão deseja fazer um pião com a maior altura que esse pedaço de madeira possa proporcionar e de modo a minimizar a quantidade de madeira a ser descartada. \n\n\n\n Dados:" +
+    " O volume de uma esfera de raio pi é :" +
+    " O volume do cilindro de altura   e área da base S é :" +
+    " O volume do cone de altura   e área da base S é :" +
+    " Por simplicidade, aproxime pi para 3. " +
+    " A quantidade de madeira descartada, em centímetros cúbicos, é ",
     "img/4.png",
         "a)45", "b)48", "c)72", "d)90","e)99",
         "5"

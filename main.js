@@ -22,6 +22,7 @@ var est = parseFloat(localStorage.getItem("est") || "0");
 var pri = parseFloat(localStorage.getItem("pri") || "0");
 var radi = parseFloat(localStorage.getItem("radi") || "0");
 var pn = parseFloat(localStorage.getItem("pn") || "0");
+var pn = parseFloat(localStorage.getItem("OPENEN") || "0");
 //Mostra nos elementos a porcentagem de acertos
 document.getElementById("Porcentagem1").innerHTML = Porcentagem1 + "%";
 document.getElementById("Porcentagem2").innerHTML = Porcentagem2 + "%";
@@ -46,6 +47,8 @@ document.getElementById("medias").innerHTML = medias + "%";
 document.getElementById("pri").innerHTML = pri + "%";
 document.getElementById("radi").innerHTML = radi + "%";
 document.getElementById("pn").innerHTML = pn + "%";
+document.getElementById("OPENEN").innerHTML = OPENEN + "%";
+
 
 //funcao pra gerar graficos
 window.onload = function() {
@@ -89,7 +92,8 @@ window.onload = function() {
                 { label: "Estatística", y: est },
                 { label: "Prisma", y: pri },
                 { label: "Radiciação", y: radi },
-                { label: "Pontos Notaveis", y: pn }
+                { label: "Pontos Notaveis", y: pn },
+                { label: "OperacoesBasicasENEM", y: OPENEN }
             ]
         }]
     };
