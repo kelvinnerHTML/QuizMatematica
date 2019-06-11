@@ -31,8 +31,8 @@ var questions = [
     ],
 
     ["(Famerp 2018)  A figura indica um prisma reto triangular e uma pirâmide regular de base quadrada. A altura desses sólidos, em relação ao plano em que ambos estão apoiados, é igual a   como indicam as figuras. Se os sólidos possuírem o mesmo volume, a aresta da base da pirâmide, em centímetros, será igual a ",
-    "a) img/ex6r1", "b) img/ex6r2", "c) img/ex6r3", "d) img/ex6r4","e) img/ex6r5",
-    "img/img4.png", "", "", "", "","",
+    "", "", "", "","",
+    "img/img4.png", "img/ex6r1.png", "img/ex6r2.png", "img/ex6r3.png", "img/ex6r4.png","img/ex6r5.png",
     "4"
     ],
 
@@ -43,8 +43,8 @@ var questions = [
     ],
 
     ["(Enem PPL 2016)  A cobertura de uma tenda de lona tem formato de uma pirâmide de base quadrada e é formada usando quatro triângulos isósceles de base   A sustentação da cobertura é feita por uma haste de medida   Para saber quanto de lona deve ser comprado, deve-se calcular a área da superfície da cobertura da tenda.",
-    "a) img/ex8r1.png", "b) img/ex8r2.png", "c) img/ex8r3.png", "d) img/ex8r4.png","e) img/ex8r5.png",
-    "img/img5.png", "", "", "", "","",
+    "", "", "", "","",
+    "img/img5.png", "img/ex8r1.png", "img/ex8r2.png", "img/ex8r3.png", "img/ex8r4.png","img/ex8r5.png",
     "1"
     ],
 
@@ -55,8 +55,8 @@ var questions = [
     ],
 
     ["(Mackenzie 2014)  Se um tetraedro regular tem arestas de comprimento 6 m, então podemos afirmar que ",
-    "a) img/ex10r1.png", "b) img/ex10r2.png", "C) img/ex10r3.png", "d) img/ex10r4.png","e) img/ex10r5.png",
-    "img/img6.png", "", "", "", "","",
+    "", "", "", "","",
+    "img/img6.png", "img/ex10r1.png", "img/ex10r2.png", "img/ex10r3.png", "img/ex10r4.png","img/ex10r5.png",
     "5"
     ],
 
