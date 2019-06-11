@@ -22,7 +22,7 @@ var questions = [
     ],
     ["(Enem 2014)  Na alimentação de gado de corte, o processo de cortar a forragem, colocá-la no solo, compactá-la e protegê-la com uma vedação denomina-se silagem. Os silos mais comuns são os horizontais, cuja forma é a de um prisma reto trapezoidal, conforme mostrado na figura.", //Enunciado
         "110", "125", "130", "220", "260",//Alternativas
-        "ex5", "", "", "", "","",//Fotos
+        "img/ex5.jpg", "", "", "", "","",//Fotos
         "1"//Resposta
     ],
     ["(Enem 2012)  Alguns objetos, durante a sua fabricação, necessitam passar por um processo de resfriamento. Para que isso ocorra, uma fábrica utiliza um tanque de resfriamento, como mostrado na figura.", //Enunciado
