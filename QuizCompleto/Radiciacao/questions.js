@@ -24,7 +24,7 @@ var questions = [
 "3"
 ],
 //5
-["(Ufc 1999)  Seja:    Então A+B é igual a:",
+["(Ufc 1999)  A+B é igual a:",
 "", "", "", "","",
 "img/ex5.png", "img/5a.png", "img/5b.png", "img/5c.png", "img/5d.png","img/5e.png",
 "5"
