@@ -42,7 +42,7 @@ var questions = [
 
     ["(Enem 2016)  O LlRAa, Levantamento Rápido do Índice de Infestação por Aedes aegypti, consiste num mapeamento da infestação do mosquito Aedes aegypti. O LlRAa é dado pelo percentual do número de imóveis com focos do mosquito, entre os escolhidos de uma região em avaliação. O serviço de vigilância sanitária de um município, no mês de outubro do ano corrente, analisou o LlRAa de cinco bairros que apresentaram o maior índice de infestação no ano anterior. Os dados obtidos para cada bairro foram:",
         "I.","II.","III.","IV.","V.",
-        "img/ex7.jpg","", "","","","",
+        "","", "","","","",
         "1"
     ],
 
