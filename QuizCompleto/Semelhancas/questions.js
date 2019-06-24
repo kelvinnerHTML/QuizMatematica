@@ -1,18 +1,18 @@
 var questions = [
     //1
-    [" (Upe-ssa 1 2018)  Os lados de um triângulo medem, respectivamente, e Quais são as respectivas medidas dos lados de um triângulo semelhante a este cujo perímetro mede",
+    [" (Upe-ssa 1 2018)  Os lados de um triângulo medem, respectivamente, 5cm,7cm e 8cm. Quais são as respectivas medidas dos lados de um triângulo semelhante a este cujo perímetro mede 0,6cm",
         " 15cm, 21cm e 24cm", " 12cm, 22cm e 26cm", " 18cm, 20cm e 22cm", " 11cm, 23cm e 26cm", " 16cm, 18cm e 26cm",
         "", "", "", "", "", "",
         "1"
     ],
     //2
-    [" (Mackenzie 2018)  Em um triângulo retângulo   reto em   as medidas de seus lados   e   formam, nessa ordem, uma progressão aritmética de razão Então, das alternativas abaixo, as medidas de   e   são, respectivamente",
+    [" (Mackenzie 2018)  Em um triângulo retângulo ABC reto em B as medidas de seus lados AB, CB e AC formam, nessa ordem, uma progressão aritmética de razão Então, das alternativas abaixo, as medidas de AB, BC e AC são, respectivamente",
         " 3,6 e 9", " 6, 9 e 12", " 9, 12 e 15", " 12, 15 e 18", " 15, 18 e 21",
         "", "", "", "", "", "",
         "3"
     ],
     //3
-    [" (Fmp 2017)  Os lados de um triângulo medem     e   e sua área mede   Considere um segundo triângulo, semelhante ao primeiro, cuja área mede. A medida do perímetro do segundo triângulo, em centímetros, é",
+    [" (Fmp 2017)  Os lados de um triângulo medem 13cm, 14cm e 15cm  e sua área mede 84cm Considere um segundo triângulo, semelhante ao primeiro, cuja área mede 336m. A medida do perímetro do segundo triângulo, em centímetros, é",
         " 42", " 84", " 126", " 168", " 336",
         "", "", "", "", "", "",
         "2"

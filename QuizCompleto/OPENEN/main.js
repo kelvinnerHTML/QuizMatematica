@@ -33,8 +33,8 @@ function quit() {
     result.style.display = '';
     q.style.display = "none";
     var f = score / tques;
-    //result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
-    localStorage.setItem("triangulo", (f * 100));
+    // result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
+    localStorage.setItem("OPENEN", (f * 100));
     //redireciona para a pagina home
     window.location.replace("/QuizMatematica/index.html");
 }

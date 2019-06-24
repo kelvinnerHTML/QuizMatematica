@@ -36,7 +36,7 @@ var questions = [
     ["(Ufc 2002)  Na figura a seguir, temos dois triângulos equiláteros ABC e A'B'C' que possuem o mesmo baricentro, tais que AB || A'B', AC || A'C' e BC || B'C'. Se a medida dos lados de ABC é igual a 3√3 cm e a distância entre os lados paralelos mede 2 cm, então a medida das alturas de A'B'C' é igual a: ",
         "11,5 cm", "10,5 cm", "9,5 cm", "8,5 cm","7,5 cm",
         "img/ex6.jpg", "", "", "", "","",
-        "1"
+        "2"
 
     ],
 
