@@ -33,6 +33,7 @@ function quit() {
     result.style.display = '';
     q.style.display = "none";
     var f = score / tques;
+    console.log(f);
     // result.textContent = "Sua pontuação foi de: " + (f * 100).toFixed(2) + "%";
     localStorage.setItem("Potencia1", (f * 100));
     //redireciona para a pagina home
